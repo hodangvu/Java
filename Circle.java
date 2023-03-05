@@ -1,22 +1,10 @@
-package OOP;
+package OOP_Abstract;
 
-public class Circle {
-	private double radius;
-	private String color;
-	
-	public double getRadius() {
-		return radius;
-	}
-	public Circle() {
-		radius = 1.0;
-		color = "red";
-	}
-	public Circle(double r) {
-		this.radius = r;
-		this.color = "red";
-	}
-	public double getArea() {
-		return Math
+public abstract class Circle extends Shape {
+
+	public Circle(String color, boolean filled) {
+		super(color, filled);
+		// TODO Auto-generated constructor stub
 	}
 	
 }
